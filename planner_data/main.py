@@ -6,13 +6,13 @@ from dotenv import load_dotenv
 import pandas as pd
 import pyodbc
 
-from azure_configuration import initialize_azure_ad_app
-from fetch_planner_data import (
+from planner_data.azure_configuration import initialize_azure_ad_app
+from planner_data.fetch_planner_data import (
     fetch_categories_name,
     fetch_planner_data,
     fetch_planner_buckets
 )
-from process_planner_data import (
+from planner_data.process_planner_data import (
     extract_info_createdBy,
     extract_values_application,
     extract_values_user

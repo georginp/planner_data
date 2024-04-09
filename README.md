@@ -17,10 +17,10 @@ Initialize the Azure AD app to acquire tokens for Microsoft Azure.
 
 ---Usage
 
-Run the Python script main.py to execute the data extraction, transformation, and database upload processes. Make sure you have completed the setup steps mentioned above before running the script.
+Run the Python script to execute the data extraction, transformation, and database upload processes. Make sure you have completed the setup steps mentioned above before running the script.
 
 ```bash
-python main.py
+python -m planner_data
 
 ---Workflow
 
